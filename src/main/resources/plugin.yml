@@ -1,0 +1,13 @@
+name: materialCollection
+version: '${project.version}'
+main: com.kumo0621.github.materialcollection.MaterialCollection
+api-version: '1.20'
+commands:
+  setresetblock:
+    description: 特定のブロックにリセット効果を適用します。
+    usage: /<command>
+    permission: op
+  resetblockeffect:
+    description: 特定のブロックのリセット効果を解除します。
+    usage: /<command>
+    permission: op
